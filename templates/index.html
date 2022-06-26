@@ -5,17 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <style>
-      body {
-        display: flex;
-        justify-content: center;
-      }
-      .tablecenter th,td{
-        text-align:center;
-      }
-      </style>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/css/style.css') }}">
   </head>
   <body>
+      <!-- Use bootstrap for table -->
       <table class="tablecenter table table-hover w-50">
           <thead>
               <tr class="table-dark text-warning">

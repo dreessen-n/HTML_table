@@ -5,6 +5,16 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+}
+.tablecenter th,td{
+    text-align:center;
+}
+
+/* for index_table.html file
+
 .table {
     margin: 0 auto;
     width: 80%;
@@ -25,3 +35,4 @@ th, td {
     vertical-align: middle;
     border-bottom: 1px solid silver;
 }
+*/
