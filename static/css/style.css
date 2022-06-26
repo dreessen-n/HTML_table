@@ -5,14 +5,9 @@
     box-sizing: border-box;
 }
 
-body {
-    display: flex;
-    justify-content: center;
-}
-
-table {
-    width: 600px;
-    border-collapse: collapse;
+.table {
+    margin: 0 auto;
+    width: 80%;
 }
 
 thead {
