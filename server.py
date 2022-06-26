@@ -10,7 +10,7 @@ def render_table():
         {'first_name': 'Mark', 'last_name': 'Guillen'},
         {'first_name': 'KB', 'last_name': 'Tonel'}
     ]
-    return render_template('index.html', users=users)
+    return render_template('index_bootstrap.html', users=users)
 
 # Error message for 404
 @app.errorhandler(404)
