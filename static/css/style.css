@@ -4,3 +4,29 @@
     vertical-align: top;
     box-sizing: border-box;
 }
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 600px;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: black;
+    color: gold;
+}
+
+tr {
+    height: 30px;
+    width: 600px;
+    text-align: center;
+}
+
+th, td {
+    vertical-align: middle;
+    border-bottom: 1px solid silver;
+}
