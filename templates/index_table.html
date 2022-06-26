@@ -8,20 +8,20 @@
     <title>HTML table</title>
 </head>
 <body>
-    <table>
-        <thead>
-            <tr>
-                <th>First Name</th>
-                <th>Last Name</th>
-                <th>Full Name</th>
+    <table class="tbl">
+        <thead class="tbl_thead">
+            <tr class="tbl_tr">
+                <th class="tbl_th">First Name</th>
+                <th class="tbl_th">Last Name</th>
+                <th class="tbl_th">Full Name</th>
             </tr>
         </thead>
         <tbody>
             {% for user in users %}
-            <tr>
-                <td>{{ user['first_name'] }}</td>
-                <td>{{ user['last_name'] }}</td>
-                <td>{{ user['first_name'] }} {{ user['last_name'] }}</td>
+            <tr class="tbl_tr">
+                <td class="tbl_td">{{ user['first_name'] }}</td>
+                <td class="tbl_td">{{ user['last_name'] }}</td>
+                <td class="tbl_td">{{ user['first_name'] }} {{ user['last_name'] }}</td>
             </tr>
             {% endfor %}
         </tbody>

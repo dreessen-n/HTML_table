@@ -13,26 +13,23 @@ body {
     text-align:center;
 }
 
-/* for index_table.html file
-
-.table {
-    margin: 0 auto;
-    width: 80%;
+.tbl {
+    width: 50%;
+    border-collapse: collapse;
 }
 
-thead {
+.tbl_thead {
     background-color: black;
     color: gold;
 }
 
-tr {
+.tbl_tr {
     height: 30px;
     width: 600px;
     text-align: center;
 }
 
-th, td {
+.tbl_th, .tbl_td {
     vertical-align: middle;
     border-bottom: 1px solid silver;
 }
-*/
